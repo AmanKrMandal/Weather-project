@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <!-- //////////////////////////////////////FAVICON///////////////////////////////////// -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- //////////////////////// ICON /////////////////////////////////////// -->
+
+    <script src="https://kit.fontawesome.com/a7847b4997.js" crossorigin="anonymous"></script>
+
+    <!-- ////////////////////////  GOOGLE FONT  //////////////////////////////////////////// -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Search" class="search-bar">
+            <button><i class="fa-solid fa-magnifying-glass-location"></i></button>
+        </div>
+        <div class="weather loading">
+            <h2 class="city">Weather in India</h2>
+            <h1 class="temp">37&#176;C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/01n@2x.png" class="icon">
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity : 40% </div>
+            <div class="wind"> Wind Speed 6.2 km/h</div>
+        </div>
+    </div>
+</body>
+
+</html>
